@@ -1,14 +1,10 @@
 import React from 'react';
 import './MyHome.css';
 import { motion } from 'framer-motion';
-
 // Import all the separate components
 import HeroSlider from './HeroSlider/HeroSlider';
-import TrustedBy from './TrustedBy/TrustedBy';
 import OneStop from './OneStop/OneStop';
-import NewsMedia from './NewsMedia/NewsMedia';
-import HomePortfolio from './HomePortfolio/HomePortfolio';
-import HomeAbout from './HomeAbout/HomeAbout';
+
 import Questions from './Questions/Questions';
 import Myfooter from './Myfooter/Myfooter';
 

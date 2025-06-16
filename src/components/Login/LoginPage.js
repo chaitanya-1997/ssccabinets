@@ -78,9 +78,7 @@ const LoginPage = () => {
                 />
                 <label htmlFor="rememberMe">Remember me</label>
               </div>
-              <a href="" className="forgot-password">
-                Forgot password?
-              </a>
+              
             </div>
             <button type="submit" className="login-btn">
               Login
@@ -88,15 +86,14 @@ const LoginPage = () => {
           </form>
           <p className="register-prompt">
             Don't have an account?
-            {/* <a href="/register">Register</a> */}
+           
             <Link to="/signup" className="register-link">
               Register
             </Link>
           </p>
         </div>
         <footer className="login-footer">
-          <a href="">Privacy Policy</a> | <a href="">Terms of Service</a> |{" "}
-          <a href="">Contact Us</a>
+        
         </footer>
       </div>
     </div>

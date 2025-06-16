@@ -343,7 +343,8 @@ const validatePhone = (phone) => {
                 required
                 disabled={loading}
               />
-              I agree to the<a  onClick={(e) => { e.preventDefault(); openModal(modals.termsOfUse); }}>Terms & Conditions</a>
+              {/* I agree to the<a  onClick={(e) => { e.preventDefault(); openModal(modals.termsOfUse); }}>Terms & Conditions</a> */}
+              I agree to the<button  onClick={(e) => { e.preventDefault(); openModal(modals.termsOfUse); }}>Terms & Conditions</button>
             </label>
           </div>
 

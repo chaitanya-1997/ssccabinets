@@ -94,8 +94,10 @@ const Myfooter = () => {
               <p>Developed and managed by <a href="https://zeta-v.com/" target="_blank" rel="noopener noreferrer" style={{color:'#6290cf'}}>ZETA-V</a></p>
             </div>
             <div className="footer-bottom-links">
-              <a onClick={(e) => { e.preventDefault(); openModal(modals.privacyPolicy); }}>Privacy Policy</a>
-              <a  onClick={(e) => { e.preventDefault(); openModal(modals.termsOfUse); }}>Terms of Service</a>
+              <button  onClick={(e) => { e.preventDefault(); openModal(modals.termsOfUse); }}>Terms of Service</button>
+              <button  onClick={(e) => { e.preventDefault(); openModal(modals.privacyPolicy); }}>Privacy Policy</button>
+              {/* <a onClick={(e) => { e.preventDefault(); openModal(modals.privacyPolicy); }}>Privacy Policy</a> */}
+              {/* <a  onClick={(e) => { e.preventDefault(); openModal(modals.termsOfUse); }}>Terms of Service</a> */}
             </div>
           </div>
         </div>
