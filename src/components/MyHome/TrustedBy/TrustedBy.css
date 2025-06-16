@@ -1,0 +1,70 @@
+/* TrustedBy.css - Styling for the trusted clients section */
+
+.clients-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}  
+
+.section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #333;
+  position: relative;
+}
+
+.section-title:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #6290cf;
+  margin: 15px auto 0;
+}
+
+.clients-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.client-logo {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 180px;
+  height: 80px;
+  font-weight: 600;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.client-logo:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .clients-logos {
+    gap: 15px;
+  }
+  
+  .client-logo {
+    min-width: 140px;
+    height: 70px;
+    padding: 15px 20px;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,163 @@
+
+.terms-of-use-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #1A2A44, #E9ECEF);
+}
+
+.terms-of-use-header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: rgba(26, 42, 68, 0.9);
+  border-bottom: 1px solid #E9ECEF;
+}
+
+.header-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.header-link {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+.terms-of-use-main {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.left-panel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://images.pexels.com/photos/28272339/pexels-photo-28272339/free-photo-of-a-kitchen-with-wooden-cabinets-and-stainless-steel-appliances.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, rgba(26, 42, 68, 0.7), transparent);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.overlay-text {
+  font-size: 16px;
+}
+
+.overlay-logo {
+  margin-top: 20px;
+  width: 450px;
+  height: auto;
+}
+
+.terms-of-use-card {
+  width: 80%;
+  max-width: 600px;
+  background: white;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.card-title {
+  color: #0057D9;
+  font-weight: bold;
+}
+
+.terms-of-use-card h3 {
+  color: #0057D9;
+  margin-top: 1.5rem;
+}
+
+.terms-of-use-card h4 {
+  color: #1A2A44;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.terms-of-use-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.terms-of-use-card ul {
+  margin-bottom: 1rem;
+  padding-left: 20px;
+}
+
+.terms-of-use-card li {
+  font-size: 16px;
+ 
+  line-height: 1.6;
+}
+
+.prvli{
+    list-style: circle;
+    text-align: left;
+}
+.terms-of-use-card a {
+  color: #0057D9;
+  text-decoration: none;
+}
+
+.terms-of-use-card a:hover {
+  text-decoration: underline;
+}
+
+.terms-of-use-footer {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background: linear-gradient(to right, rgba(26, 42, 68, 0.7), transparent);
+}
+
+.footer-text {
+  font-size: 12px;
+  color: white;
+}
+
+.footer-links {
+  font-size: 12px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

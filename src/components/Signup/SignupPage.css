@@ -1,0 +1,245 @@
+.signup-container {
+  display: flex;
+  height: 100vh;
+  margin-top: 80px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.left-panel {
+  flex: 1;
+  background: linear-gradient(to bottom right, #e6f0fa, #ffffff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+  
+}
+
+.illustration {
+  max-width: 100%;
+  height: auto;
+}
+
+.right-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+
+  
+}
+
+.signup-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: white;
+}
+
+.signup-form h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* Toggle Group */
+.toggle-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.toggle-option {
+  flex: 1;
+  text-align: center;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.toggle-option input {
+  display: none;
+}
+
+.toggle-option.active {
+  background-color: #6290cf;
+  color: white;
+  border-color: #6290cf;
+}
+
+/* Form Fields */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.password-group {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 2.6rem;
+  right: 1rem;
+  font-size: 0.85rem;
+  color: #6290cf;
+  cursor: pointer;
+}
+
+/* Terms Checkbox */
+.terms input {
+  margin-right: 0.5rem;
+}
+
+.terms a {
+  color: #6290cf;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+/* Submit Button */
+.btn-signup {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #6290cf;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-signup:hover {
+  background-color: #0056b3;
+}
+
+/* Login Link */
+.login-link {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.login-link a {
+  color: #6290cf;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .signup-container {
+    flex-direction: column;
+    margin-top: 0%;
+  }
+
+  .left-panel {
+    height: 200px;
+  }
+
+  .illustration {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.signup-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.left-panel,
+.right-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.left-panel {
+  background: linear-gradient(to bottom right, #e6f0fa, #ffffff);
+  transition: height 0.3s ease;
+}
+
+.illustration {
+  max-width: 80%;
+  height: auto;
+}
+
+.right-panel {
+  background-color: #fff;
+}
+
+.left-panel {
+  transition: height 0.3s ease;
+}
+
+
+.alert {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 4px;
+}
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+
+/* For large screens only */
+@media (min-width: 992px) {
+  .signup-form.customer-margin {
+    margin-top: 300px;
+  }
+
+  .signup-form.vendor-margin {
+    margin-top: 480px;
+  }
+}
+
+/* For smaller screens (mobile/tablet) */
+@media (max-width: 991px) {
+  .signup-form {
+    margin-top: 50px; /* Or whatever you need on mobile */
+  }
+
+  .illustration {
+  max-width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+}

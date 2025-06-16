@@ -1,0 +1,171 @@
+General Styles
+.cm-section {
+    padding: 0; /* No padding for the section as the banner takes full width */
+    background-color: #f9f9f9;
+  }
+  
+  .cm-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  /* Full-Width Banner */
+  .cm-banner {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .cm-banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire container */
+  }
+  
+  .cm-banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+  }
+  
+  .cm-banner-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds depth to the text */
+  }
+  
+  /* Contact Header */
+  .cm-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .cm-header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cm-header p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Contact Form Container */
+  .cm-form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: flex-start;
+  }
+  
+  .cm-form {
+    width: 60%;
+  }
+  
+  .cm-form-group {
+    margin-bottom: 20px;
+  }
+  
+  .cm-form-group input,
+  .cm-form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .cm-form-group input:focus,
+  .cm-form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .cm-form-group textarea {
+    resize: none;
+  }
+  
+  .cm-send-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cm-send-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Contact Details */
+  .cm-details {
+    width: 35%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cm-details h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .cm-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cm-details ul li {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    text-align: left;
+    color: #333;
+  }
+  
+  .cm-details ul li span {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .cm-form-container {
+      flex-direction: column;
+    }
+  
+    .cm-form {
+      width: 100%;
+    }
+  
+    .cm-details {
+      width: 100%;
+    }
+  }
+
+  .plain-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.plain-link:hover {
+  text-decoration: underline;
+}
+
+
