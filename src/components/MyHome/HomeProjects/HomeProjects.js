@@ -93,7 +93,7 @@ const HomeProjects = () => {
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
                 <motion.a 
-                  href="#" 
+         
                   className="view-project-link"
                   whileHover={{ x: 5 }}
                   transition={{ duration: 0.2 }}

@@ -78,7 +78,7 @@ const NewsMedia = () => {
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
                 <motion.a 
-                  href="#" 
+                 
                   className="read-more"
                   whileHover={{ x: 5 }}
                   transition={{ type: 'spring', stiffness: 400 }}

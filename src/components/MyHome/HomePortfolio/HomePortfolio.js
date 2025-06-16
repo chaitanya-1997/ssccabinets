@@ -90,7 +90,7 @@ const HomePortfolio = () => {
                   <h3>{item.title}</h3>
                   <p>{item.category}</p>
                   <motion.a 
-                    href="#" 
+              
                     className="view-project"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
